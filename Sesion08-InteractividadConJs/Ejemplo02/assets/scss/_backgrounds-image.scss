@@ -1,0 +1,37 @@
+@mixin countries-images {
+    height: 80%;
+    width: $full;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+
+ #mexico-photos{
+     @include countries-images;
+     background-image: url(../images/cdmx.jpeg);
+ }
+
+ #bogota-photos{
+    @include countries-images;
+    background-image: url(../images/bogota.jpg);
+} 
+
+#paris-photos{
+    @include countries-images;
+    background-image: url(../images/paris.jpg);
+} 
+
+.panama-photos{
+    @include countries-images;
+    background-image: url(../images/panama.jpg);
+}  
+
+.panama-photos2{
+    @include countries-images;
+    background-image: url(../images/panama2.jpg);
+}  
+
+.panama-photos3{
+    @include countries-images;
+    background-image: url(../images/panama3.jpg);
+}  

@@ -1,0 +1,12 @@
+@mixin countries-images {
+    height: 80%;
+    width: $full;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+
+ #mexico-photos{
+     @include countries-images;
+     background-image: url(../images/cdmx.jpeg);
+ }

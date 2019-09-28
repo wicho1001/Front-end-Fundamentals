@@ -234,7 +234,7 @@ footer > ul > li:first-of-type {
 
 /*Media queries para el diseño responsivo*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 
   .mobile{
     display: none !important;

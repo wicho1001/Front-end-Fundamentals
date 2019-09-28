@@ -1,0 +1,84 @@
+
+
+@media screen and (min-width: 400px) {
+
+    .desktop{
+      display: none !important;
+    }
+  
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 799px) and (min-width: 499px) 
+   {
+  
+    .desktop{
+      display: flex !important;
+    }
+  
+    #icons-container{
+      display: flex;
+      flex-wrap: inherit;
+    }
+  
+    .top-country-gridarea{
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto;
+      justify-items: center;
+      padding: 10px;
+    }
+    
+    
+    .top-country-gridarea > div{
+      width: 40vw !important; 
+      height: 30vh;
+      text-align: center;
+      margin: 15px;
+    }
+   }
+  
+  
+  
+  @media screen and (max-width: 800px) {
+  
+    .mobile{
+      display: none !important;
+    }
+  
+    .top-country-flexarea{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .top-country-gridarea > div{
+      width: 60vw;
+    }
+  
+    .searchbar{
+      width: 80%;
+    }
+  
+    .login-inputs{
+      width: 100%;
+    }
+    
+      
+    .login-info{
+      padding: $zero;
+    }
+  
+    .register-inputs{
+      width: 100%;
+    }
+    
+      
+    .register-info{
+      padding: $zero;
+    }
+    
+  }
+  

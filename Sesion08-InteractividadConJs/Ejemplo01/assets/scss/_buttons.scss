@@ -1,0 +1,11 @@
+
+.confirm-button {
+   @include buttons;
+   border: 1px solid #3eb368;
+   background: #3eb368;
+}
+.cancel-button {
+   @include buttons;
+   border: 1px solid $red;
+   background: $red;
+} 

@@ -1,0 +1,26 @@
+.text-center{
+    text-align: center;
+}
+  
+.text-shadow{
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+  }
+  
+.title-font{
+    font-size: 30px;
+}
+  
+.subtitle-font{
+    font-size: 20px;
+}
+
+.container-title-subtitle p:first-child{
+    font-size: 30px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+  }
+  
+.container-title-subtitle > p:last-child{
+    font-size: 20px;
+    text-shadow: 1px 1px 4px  rgba(0,0,0,0.45);
+}
+  

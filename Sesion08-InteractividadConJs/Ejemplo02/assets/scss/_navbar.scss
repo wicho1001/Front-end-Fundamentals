@@ -1,0 +1,26 @@
+nav{
+    background-color: $primary-color;
+    height: 50px;
+    width: $full;
+    display: flex;
+    justify-content: space-between;
+    align-items: $center;
+    div{
+  
+      a{
+        color: $white;
+        text-decoration: none;
+        padding-right: 20px;
+        
+      }
+  
+      a:hover{
+        color: $red;      
+      }
+    }
+  }
+  
+  #bedu-logo{
+    margin-left: 20px;
+    width: 50px;
+  }
